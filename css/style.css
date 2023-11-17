@@ -1,0 +1,199 @@
+@import url("https://fonts.googleapis.com/css2?family=Abel&family=Julius+Sans+One&family=Nunito:wght@200&family=Oswald:wght@200;300;400&family=Pavanam&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Tsukimi+Rounded:wght@300&display=swap");
+
+/* Estilos generales */
+body {
+  margin: 0;
+  padding: 0;
+}
+header {
+  display: flex;
+  background: #fff;
+  align-items: center;
+  height: auto;
+  width: 100%;
+  z-index: 10;
+  background-color: red;
+
+  padding: 10px 0;
+}
+main {
+  background-color: red;
+}
+/* Estilos para el encabezado */
+main .header-content {
+  width: 100%;
+  height: 600px;
+  background-image: url("../img/fondo.png");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: rgb(138, 153, 51);
+}
+/* Resto de estilos */
+
+/* Estilos para el menú de navegación */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0; /* Añadir espaciado al menú */
+  /*background-color: rgba(0, 0, 0, 0.5);  Fondo semi-transparente */
+  /*position: fixed;*/
+  background-color: black;
+  width: 100%;
+}
+.logo {
+  width: 60%;
+}
+
+.logo img {
+  width: 10%; /* Tamaño del logo */
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  line-height: 1em;
+  background-color: blue;
+}
+
+.menu a {
+  color: rgb(148, 145, 145);
+  text-decoration: none;
+  margin-right: 20px; /* Espaciado entre elementos del menú */
+  font-family: "Quicksand", sans-serif;
+
+  font-size: 100%;
+  font-size: 16px;
+  background-color: blueviolet;
+}
+.menu a:hover {
+  color: rgb(111, 109, 109);
+}
+
+/* Estilos para el encabezado */
+
+/* Resto de estilos */
+.header-content {
+  color: black;
+  width: 100%;
+}
+/* Estilos para los textos en el encabezado */
+.header-content .titulo {
+  font-family: "Quicksand", sans-serif; /* Cambia "Otra Fuente" por el nombre de la fuente deseada */
+  font-weight: 300;
+  letter-spacing: 0;
+  font-size: 100px;
+}
+
+.header-content .subtitulo {
+  font-size: 30px;
+  font-weight: 200;
+
+  font-family: "Quicksand", sans-serif;
+}
+.header-content .textos {
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.7
+  ); /* Fondo blanco semi-transparente */
+  width: 25%;
+
+  color: black;
+}
+
+/* Estilos para los elementos de sesgo */
+/*.sesgoabajo,
+.sesgoarriba {
+  z-index: 10;
+  position: absolute;
+  border-style: solid;
+  width: 0;
+}*/
+
+.sesgoabajo {
+  z-index: 10;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-width: 0 0 30vh 100vw;
+  border-style: solid;
+  border-color: transparent transparent #fff transparent;
+}
+
+.sesgoarriba {
+  margin-bottom: 100px;
+  z-index: 10;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-width: 35vh 100vw 0 0;
+  border-style: solid;
+  border-color: #fff transparent transparent transparent;
+}
+
+/* Contenedor */
+.acerca-de {
+  background-color: blueviolet;
+  margin-top: 80px;
+}
+.contenedor {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  overflow: hidden;
+  padding: 52px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+}
+
+/* Main */
+
+.sobre-nosotros {
+  font-size: 56px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.slogan {
+  font-size: 24px;
+  font-weight: 300;
+  margin-bottom: 24px;
+}
+
+.parrafo {
+  margin-bottom: 10px;
+  font-weight: 300;
+  line-height: 29px;
+  color: rgb(24, 16, 16);
+  text-align: center; /* Centrar horizontalmente el texto */
+
+  width: 60%;
+}
+
+.acerca-de .boton {
+  display: inline-block;
+  padding: 6px;
+  width: 128px;
+  font-weight: 300;
+  border: 1px solid rgba(24, 16, 16, 0.7);
+  color: rgb(24, 16, 16);
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 16px;
+  margin-top: 24px;
+}
