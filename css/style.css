@@ -148,6 +148,35 @@ footer {
   margin-top: auto;
 }
 
-footer a {
-  text-decoration: underline;
+/* Estilos generales del footer */
+footer {
+  background-color: #f2f2f2; /* Fondo medio gris */
+  padding: 20px 0; /* Espaciado interno */
+  color: #333; /* Color del texto */
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-logo h2 {
+  font-size: 2em; /* Tamaño grande para "VLOM" */
+  margin: 0;
+}
+
+.footer-logo p {
+  font-size: 1.2em; /* Tamaño mediano para "tu casa mi casa" */
+  margin: 0;
+}
+
+.footer-social-icons img {
+  width: 30px; /* Ajusta el tamaño de los íconos de redes sociales */
+  margin-right: 10px; /* Espaciado entre íconos */
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px; /* Espaciado superior */
 }
