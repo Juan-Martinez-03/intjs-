@@ -1,6 +1,7 @@
 #cart-container {
   max-width: 500px;
   margin: auto;
+  z-index: 2;
 }
 
 .tarjeta-producto {
